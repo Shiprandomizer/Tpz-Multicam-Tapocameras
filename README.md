@@ -24,7 +24,7 @@ Schlüssel werden per E-Mail nach Zahlungseingang versendet.
 
 ## 💻 Installation
 1. Lade die neueste Version unter **Releases** herunter.
-2. Vorraussetzung ist der VLC Player muss auf Laufwerk C:\Programme isntalliert sein!
+2. Vorraussetzung: der VLC Player muss auf Laufwerk C:\Programme isntalliert sein!
 3. https://www.videolan.org/
 5. Starte `PTZMultiCam.exe`.
 
