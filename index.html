@@ -1,0 +1,116 @@
+📂 tapo-ptz-landing/
+ ├─ index.html            # Deine Landingpage
+ ├─ 📂 screenshots/       # Screenshots der App
+ │   ├─ screen1.png
+ │   └─ screen2.png
+ └─ (optional: README.md) # Falls du noch Textinfos willst
+PTZ MultiCam Controller für Tapo® Kameras
+
+
+Hosting auf GitHub Pages
+
+Neues Repository auf GitHub erstellen: tapo-ptz-landing.
+
+index.html + screenshots hochladen.
+
+In den Settings → Pages:
+
+„Branch: main“ auswählen.
+
+Seite wird veröffentlicht unter:
+https://DEINUSERNAME.github.io/tapo-ptz-landing/.
+
+Fertig! 🎉 Jetzt kannst du von deiner README im Haupt-Repo auf diese Seite verlinken.
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PTZ MultiCam Controller</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Hero Section -->
+  <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-16 relative">
+    <div class="container mx-auto text-center px-4">
+      <!-- Logo -->
+      <img src="logo.png" alt="App Logo" class="mx-auto mb-6 w-24 h-24 drop-shadow-lg rounded-full border-4 border-white" />
+      
+      <h1 class="text-4xl font-bold mb-4">PTZ MultiCam Controller</h1>
+      <p class="text-lg mb-6">
+        Steuere mehrere TP-Link® Tapo® Kameras bequem von deinem PC.<br>
+        <span class="italic text-gray-200 text-sm">
+          Unabhängiges Projekt – nicht von TP-Link unterstützt
+        </span>
+      </p>
+      <a href="https://github.com/DEINUSERNAME/TapoPTZ-MultiCam/releases/latest" 
+         class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-gray-100">
+         📥 Download (Windows)
+      </a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section class="py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-8">Features</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="text-xl font-semibold mb-4">Mehrkamera-Unterstützung</h3>
+          <p>Verwalte mehrere TP-Link® Tapo® PTZ-Kameras gleichzeitig für maximale Übersicht.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="text-xl font-semibold mb-4">Einfache Steuerung</h3>
+          <p>Steuere Pan, Tilt und Zoom bequem über die Benutzeroberfläche.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="text-xl font-semibold mb-4">Presets speichern</h3>
+          <p>Speichere Kamerapositionen und rufe sie mit einem Klick ab.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6">Lizenz & Preis</h2>
+      <p class="text-lg mb-6">
+        Teste die Software <strong>30 Tage kostenlos</strong>.<br>
+        Für die Vollversion sende bitte eine Spende von <strong>15€</strong> über PayPal.<br>
+        Nach Zahlung erhältst du per E-Mail einen Lizenzschlüssel.
+      </p>
+      <a href="https://www.paypal.com/donate/?hosted_button_id=59LG7XYHXXRDE" 
+         class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-blue-700">
+         💳 Jetzt Lizenz erwerben
+      </a>
+    </div>
+  </section>
+
+  <!-- Screenshots Section -->
+  <section class="bg-gray-200 py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-8">Screenshots</h2>
+      <div class="flex flex-wrap justify-center gap-6">
+        <img src="screenshots/screen1.png" alt="Screenshot 1" class="w-72 rounded-lg shadow-lg">
+        <img src="screenshots/screen2.png" alt="Screenshot 2" class="w-72 rounded-lg shadow-lg">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-8">
+    <div class="container mx-auto text-center">
+      <p>📧 Kontakt: <a href="mailto:DEINEEMAIL" class="text-blue-400">DEINEEMAIL</a></p>
+      <p class="mt-2">© 2025 DEIN NAME – Alle Rechte vorbehalten.</p>
+      <p class="mt-2 text-sm">
+        TP-Link® und Tapo® sind eingetragene Marken von TP-Link Technologies Co., Ltd.<br>
+        Dieses Projekt ist ein unabhängiges Software-Tool und steht in keiner Verbindung zu TP-Link.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
