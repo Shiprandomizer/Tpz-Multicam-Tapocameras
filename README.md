@@ -33,7 +33,7 @@ Schlüssel werden per E-Mail nach Zahlungseingang versendet.
 ## 🔑 Lizenz
 - 30 Tage kostenlos testen
 - Danach Lizenzschlüssel erforderlich
-- Lizenzschlüssel erhältlich per Spende (15€) via PayPal:[ mwm@unitybox.de ](https://www.paypal.com/donate/?hosted_button_id=59LG7XYHXXRDE) 
+- Lizenzschlüssel erhältlich per Spende (15€) via PayPal:https://www.paypal.com/donate/?hosted_button_id=59LG7XYHXXRDE
   📧 Für Lizenzschlüssel bitte Kontakt aufnehmen: Grafde90@gmail.com
 
 ---
