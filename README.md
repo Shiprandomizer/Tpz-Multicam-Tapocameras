@@ -15,7 +15,7 @@ Schlüssel werden per E-Mail nach Zahlungseingang versendet.
 
 ## ✨ Features
 - Unterstützung mehrerer Tapo® PTZ-Kameras
-- Pan/Tilt/Zoom-Steuerung
+- Pan/Tilt-Steuerung
 - Presets speichern und laden
 - Benutzerfreundliche Oberfläche
 - Getestet auf Windows 10 & 11
